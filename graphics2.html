@@ -1,0 +1,49 @@
+<!Doctype>
+<html> 
+<head> SVG Files (0,0) coordinate </head>
+<title> Advanced shapes</title>
+<!--- SVG scalable vector graphics - tag used to define graphics for the web, acts like a container SVG also has sevreal methods for drawing paths, boxes, circles, text and images -->
+
+<body>
+
+<h1> first advanced shape </h1>
+	<h3> star</h3>
+		<svg width='250' height='200'>
+		<polygon points='100, 10,40,198,190,78,10,78,160,198,200' fill='blue'  stroke='purple'/>
+<div>
+<div>
+
+<svg width='400' height='120'>
+<polygon points='40,13 80,13 110,40 110,80 80,110 40,110 13,80 13,40' fill='red' stroke='black'/>
+<text x='30' y='70' font-size='25' fill='white'> STOP </text>
+</svg>
+
+<hr>
+<svg width='400' height='120'>
+<line x1='0' y1='0' x2='50' y2='100' stroke='brown'/>
+</svg>
+<hr>
+<svg width='400' height='120'>
+<line x1='-99' y1='999' x2='90' y2='0' stroke='brown'/>
+</svg>
+
+<h3> straight line</h3>
+<svg width='400' height='120'>
+<line x1='0' y1='0' x2='0' y2='100' stroke='brown'/>
+<line x1='0' y1='0' x2='100' y2='0' stroke='brown'/>
+</svg>
+<svg width='250' height='200'>
+		<polygon points='100, 10,40,198,190,78,10,78,160,198,200' fill='blue'  stroke='purple'/>
+<div>
+<h3> Star </h3>
+        <svg width='250' height='200'>
+        <polygon points='100,10,40,198,190,78,10,78,160,198' fill='url(#s1)' stoke='black'/>
+        
+                <defs>
+                <linearGradient id='s1' x1='0%' y1='0%' x2='100%' y2=0%'>
+                <stop offset='0%' style='stop-color:yellow;'/>
+                <stop offset='100%' style='stop-color:red;'/>
+                </linearGradient>
+                </defs>
+
+
